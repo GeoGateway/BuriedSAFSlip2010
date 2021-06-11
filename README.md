@@ -48,5 +48,22 @@ producing output files:
 2CACTtry2_horizontal.kml
 2CACTtry2_vertical.kml
 
+The GNSS monument locations in Figure 1 and the horizontal and Figure 2 b&c vertical displacement plots are directly created from these files.
+
+Figure 3: Grayscale interferogram backgrounds are zoomed selections from the 26514 line dataset, edgar3.3.py product file patchDS.kmz, representing downsampled values of SanAnd_26514_09015-001_10028-005_0354d_s01_L090HH_01.unw.grd unwrapped phase converted to line-of-sight displacement.  In Figure 3a we have enhanced theh contrast to show detail. Figure 3c displays fault transverse samples at the coordinates given.
+
+Figure 4: The orange-pink background displays the UAVSAR unwrapped phase image found in http://uavsar.asfdaac.alaska.edu/UA_SanAnd_26514_09015-001_10028-005_0354d_s01_L090_01/SanAnd_26514_09015-001_10028-005_0354d_s01_L090HH_01.unw.kmz.  The Figure 4a black/white linework displays edgar3.3.py files edges+3V.kmz (white) and edges-3V.kmz (black).  The Figure 4b heat-scale colored linework displays edgar3.3.py output file SlSlip2V.kmz.  
+
+Figure 5: Values of width and slip are from (1-based) columns 6 and 4 of edgar3.3.py output file jumpTable2.txt.  In 5a w80 is column 6 (width in km) * 1000 (conversion to m) * 6 (relation of w to w80).  In the same file lon,lat locations are in the same file columns 10,11, and converted to Distance from Reference Point using simple spread-sheet conversion. The profiles in Figure 5c were extracted from the unwrapped interferogram using the GeoGateway UAVSAR Line-of-Sight tool, repeatedly setting the end coordinates at +/- 1 km positions perpendicular to the mean fault location and strike in the region A-B shown in Figure 5d.  The GeoGateway tool extracts pixels crossed by the profile line, with no subsampling or smoothing.
+
+Figure 6: The yellow-blue background displays the UAVSAR unwrapped phase image found in http://uavsar.asfdaac.alaska.edu/UA_SanAnd_26516_09015-010_10028-007_0354d_s01_L090_01/SanAnd_26516_09015-010_10028-007_0354d_s01_L090HH_01.unw.grd. The Figure 6a black/white linework displays edgar3.3.py files edges+3V.kmz (white) and edges-3V.kmz (black).  The Figure 6b heat-scale colored linework displays edgar3.3.py output file SlSlip2V.kmz.  The grayscale background for Figure 6c is the edgar3.3.py output file smoothedDS.kmz. The blue fault traces are from the qfaults.kmz file as indicated in the figure caption.
+
+Figure 7: Values of width and slip are from (1-based) columns 6 and 4 of edgar3.3.py output file jumpTable2.txt.
+
+Figure 8: Heatscale colored detected edges are from edgar3.3.py output file SlSlip2V.kmz.  Fault traces are from qfaults.kmz and transcriptions from Bryant (2012,2015).
+
+Figure 9: Values for width and slip are simply derived from columns 6 and 4 of edgar3.3.py output file jumpTable2.txt, combining SAF-local edge detection data from radar lines 26514, 21516.  Slip is converted to dextral using the cosine relation that relies on the local strike (column 3 is the phase gradient direction in degrees, strike is (column 3) + 90) and elevation angle (column 7).
+
+Figure 10: spreadsheet calculation based on standard faulted elastic half-space, locked above 6.3 m depth.
 
 
