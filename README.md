@@ -49,6 +49,7 @@ producing output files:
 2CACTtry2_vertical.kml
 
 The GNSS monument locations in Figure 1 and the horizontal and Figure 2 b&c vertical displacement plots are directly created from these files.
+Table 2:  The first three rows (Coseismic) and fifth row (velocity) come from JPL GNSS Time Series tables https://sideshow.jpl.nasa.gov/post/tables/table3.html  (which records times, amplitudes, and undertainty for three component time series breaks) and https://sideshow.jpl.nasa.gov/post/tables/table2.html (which records station velocities derived from time series with breaks removed).   Row 3 results from differencing the station displacements from the GeoGateway output file 2CACTtry2_table.txt, produced as described above.
 
 Figure 3: Grayscale interferogram backgrounds are zoomed selections from the 26514 line dataset, edgar3.3.py product file patchDS.kmz, representing downsampled values of SanAnd_26514_09015-001_10028-005_0354d_s01_L090HH_01.unw.grd unwrapped phase converted to line-of-sight displacement.  In Figure 3a we have enhanced theh contrast to show detail. Figure 3c displays fault transverse samples at the coordinates given.
 
