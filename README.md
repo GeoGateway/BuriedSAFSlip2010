@@ -41,12 +41,12 @@ Ref. Site CACT
 Scale: 160
 Av Win 1: 10 days
 Av Win 2: 10 days
-Output Prefix: CACTTry2
+Output Prefix: reCACT
 
 producing output files:
-2CACTtry2_table.txt
-2CACTtry2_horizontal.kml
-2CACTtry2_vertical.kml
+reCACT_table.txt
+reCACT_horizontal.kml
+reCACT_vertical.kml
 
 The GNSS monument locations in Figure 1 and the horizontal and Figure 2 b&c vertical displacement plots are directly created from these files.
 Table 2:  The first three rows (Coseismic) and fifth row (velocity) come from JPL GNSS Time Series tables https://sideshow.jpl.nasa.gov/post/tables/table3.html  (which records times, amplitudes, and undertainty for three component time series breaks) and https://sideshow.jpl.nasa.gov/post/tables/table2.html (which records station velocities derived from time series with breaks removed).   Row 3 results from differencing the station displacements from the GeoGateway output file 2CACTtry2_table.txt, produced as described above.
