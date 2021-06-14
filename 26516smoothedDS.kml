@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>smoothedDS</name>
+	<Icon>
+		<href>smoothedDS.png</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+        <altitudeMode>absolute</altitudeMode>
+	<LatLonBox>
+		<north>33.766979</north>
+		<south>33.319943</south>
+		<east>-115.590913</east>
+		<west>-116.311638</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>
